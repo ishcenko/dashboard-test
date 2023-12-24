@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Cormorant+Upright:wght@700&family=Open+Sans:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -26,11 +29,12 @@
             </a>
           </section>
           <ul class="list">
-            <li class="item-list">
-              <svg class="item-icon" width="24" height="24">
+            <li class="items-list">
+              <div class="item-list"><svg class="item-icon" width="24" height="24">
                 <use href="./helpers/svg/symbol-defs.svg#icon-key-square"></use>
               </svg>
-              <a class="subject" href="#">Dashboard</a>
+              <a class="subject" href="#">Dashboard</a></div>
+              
             </li>
             <li class="items-list">
               <div class="item-list">
@@ -135,154 +139,155 @@
           <p class="specialization-user">Project Manager</p>
           </div>
         </aside>
-<div class="content">
-  <header class="greetings">
-          <p>Hello Evano 👋🏼,</p>
-        </header>
+      <div class="content">
+        <header class="greetings">
+                <p>Hello Evano 👋🏼,</p>
+              </header>
 
 
-        <section class="inform-users">
-          <div class="customers-and-form">
-            <div>
-              <h3 class="inform-title">All Customers</h3>
-          <p class="members">Active Members</p>
-            </div>
-            <div class="forms">
-              <form class="form-search">
-            <input
-              class="connection-field"
-              type="text"
-              name="name"
-              placeholder="Search"
-              required-placeholder=""
-            />
-            <svg class="search" width="24" height="24">
-            <use href="./helpers/svg/symbol-defs.svg#icon-search-1"></use>
-          </svg>
-          </form>
-            </div>
-          </div>
-          
-          <table>
-            <tr>
-              <th class="table-header">Customer Name</th>
-              <th class="table-header">Company</th>
-              <th class="table-header">Phone Number</th>
-              <th class="table-header">Email</th>
-              <th class="table-header">Country</th>
-              <th class="table-header">Status</th>
-            </tr>
-            <tr>
-              <td class="table-info">Jane Cooper</td>
-              <td class="table-info">Microsoft</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(225)555-0118">(225) 555-0118</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:jane@microsoft.com"
-                  >jane@microsoft.com</a
-                >
-              </td>
-              <td class="table-info">United States</td>
-              <td><button class="btn-green">Active</button></td>
-            </tr>
-            <tr>
-              <td class="table-info">Floyd Miles</td>
-              <td class="table-info">Yahoo</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(205)555-0100">(205) 555-0100</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:floyd@yahoo.com">floyd@yahoo.com</a>
-              </td>
-              <td class="table-info">Kiribati</td>
-              <td><button class="btn-red">Inactive</button></td>
-            </tr>
-            <tr>
-              <td class="table-info">Ronald Richards</td>
-              <td class="table-info">Adobe</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(302)555-0107">(302) 555-0107</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:ronald@adobe.com">ronald@adobe.com</a>
-              </td>
-              <td class="table-info">Israel</td>
-              <td><button class="btn-red">Inactive</button></td>
-            </tr>
-            <tr>
-              <td class="table-info">Marvin McKinney</td>
-              <td class="table-info">Tesla</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(252)555-0126">(252) 555-0126</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:marvin@tesla.com">marvin@tesla.com</a>
-              </td>
-              <td class="table-info">Iran</td>
-              <td><button class="btn-green">Active</button></td>
-            </tr>
-            <tr>
-              <td class="table-info">Jerome Bell</td>
-              <td class="table-info">Google</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(629)555-0129">(629) 555-0129</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:jerome@google.com"
-                  >jerome@google.com</a
-                >
-              </td>
-              <td class="table-info">Réunion</td>
-              <td><button class="btn-green">Active</button></td>
-            </tr>
-            <tr>
-              <td class="table-info">Kathryn Murphy</td>
-              <td class="table-info">Microsoft</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(406)555-0120">(406) 555-0120</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:kathryn@microsoft.com"
-                  >kathryn@microsoft.com</a
-                >
-              </td>
-              <td class="table-info">Curaçao</td>
-              <td><button class="btn-green">Active</button></td>
-            </tr>
-            <tr>
-              <td class="table-info">Jacob Jones</td>
-              <td class="table-info">Yahoo</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(208)555-0112">(208) 555-0112</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:jacob@yahoo.com">jacob@yahoo.com</a>
-              </td>
-              <td class="table-info">Brazil</td>
-              <td><button class="btn-green">Active</button></td>
-            </tr>
-            <tr>
-              <td class="table-info">Kristin Watson</td>
-              <td class="table-info">Facebook</td>
-              <td class="table-info"><a class="nav-tel" href="tel:(704)555-0127">(704) 555-0127</a></td>
-              <td class="table-info">
-                <a class="nav-mail" href="mailto:kristin@facebook.com"
-                  >kristin@facebook.com</a
-                >
-              </td>
-              <td class="table-info">Åland Islands</td>
-              <td><button class="btn-red">Inactive</button></td>
-            </tr>
-          </table>
-          <span class="count-costomers">Showing data 1 to 8 of 256K entries</span>
-          <ul>
-            <li>
-              <svg class="" width="8" height="12">
-                <use href="./helpers/svg/symbol-defs.svg#icon-untitled"></use>
-              </svg>
-            </li>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>...</li>
-            <li>40</li>
-            <li>
-              <svg class="" width="8" height="12">
-                <use href="./helpers/svg/symbol-defs.svg#icon-1"></use>
-              </svg>
-            </li>
-          </ul>
-        </section>
-</div>
-        
+              <section class="inform-users">
+                <div class="customers-and-form">
+                  <div>
+                    <h3 class="inform-title">All Customers</h3>
+                <p class="members">Active Members</p>
+                  </div>
+                  <div class="forms">
+                    <form class="form-search">
+                  <input
+                    class="connection-field"
+                    type="text"
+                    name="name"
+                    placeholder="Search"
+                    required-placeholder=""
+                  />
+                  <svg class="search" width="24" height="24">
+                  <use href="./helpers/svg/symbol-defs.svg#icon-search-1"></use>
+                </svg>
+                </form>
+                  </div>
+                </div>
+                
+                <table class="table-user">
+                  <tr>
+                    <th class="table-header">Customer Name</th>
+                    <th class="table-header">Company</th>
+                    <th class="table-header">Phone Number</th>
+                    <th class="table-header">Email</th>
+                    <th class="table-header">Country</th>
+                    <th class="table-header table-status">Status</th>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Jane Cooper</td>
+                    <td class="table-info">Microsoft</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(225)555-0118">(225) 555-0118</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:jane@microsoft.com"
+                        >jane@microsoft.com</a
+                      >
+                    </td>
+                    <td class="table-info">United States</td>
+                    <td><button class="btn-green">Active</button></td>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Floyd Miles</td>
+                    <td class="table-info">Yahoo</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(205)555-0100">(205) 555-0100</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:floyd@yahoo.com">floyd@yahoo.com</a>
+                    </td>
+                    <td class="table-info">Kiribati</td>
+                    <td><button class="btn-red">Inactive</button></td>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Ronald Richards</td>
+                    <td class="table-info">Adobe</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(302)555-0107">(302) 555-0107</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:ronald@adobe.com">ronald@adobe.com</a>
+                    </td>
+                    <td class="table-info">Israel</td>
+                    <td><button class="btn-red">Inactive</button></td>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Marvin McKinney</td>
+                    <td class="table-info">Tesla</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(252)555-0126">(252) 555-0126</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:marvin@tesla.com">marvin@tesla.com</a>
+                    </td>
+                    <td class="table-info">Iran</td>
+                    <td><button class="btn-green">Active</button></td>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Jerome Bell</td>
+                    <td class="table-info">Google</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(629)555-0129">(629) 555-0129</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:jerome@google.com"
+                        >jerome@google.com</a
+                      >
+                    </td>
+                    <td class="table-info">Réunion</td>
+                    <td><button class="btn-green">Active</button></td>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Kathryn Murphy</td>
+                    <td class="table-info">Microsoft</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(406)555-0120">(406) 555-0120</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:kathryn@microsoft.com"
+                        >kathryn@microsoft.com</a
+                      >
+                    </td>
+                    <td class="table-info">Curaçao</td>
+                    <td><button class="btn-green">Active</button></td>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Jacob Jones</td>
+                    <td class="table-info">Yahoo</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(208)555-0112">(208) 555-0112</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:jacob@yahoo.com">jacob@yahoo.com</a>
+                    </td>
+                    <td class="table-info">Brazil</td>
+                    <td><button class="btn-green">Active</button></td>
+                  </tr>
+                  <tr>
+                    <td class="table-info">Kristin Watson</td>
+                    <td class="table-info">Facebook</td>
+                    <td class="table-info"><a class="nav-tel" href="tel:(704)555-0127">(704) 555-0127</a></td>
+                    <td class="table-info">
+                      <a class="nav-mail" href="mailto:kristin@facebook.com"
+                        >kristin@facebook.com</a
+                      >
+                    </td>
+                    <td class="table-info">Åland Islands</td>
+                    <td><button class="btn-red">Inactive</button></td>
+                  </tr>
+                </table>
+                <div class="pagination-list">
+                  <span class="count-costomers">Showing data 1 to 8 of 256K entries</span>
+                <ul class="poginations">
+                  <li class="pagination-item">
+                    <svg class="" width="8" height="12">
+                      <use href="./helpers/svg/symbol-defs.svg#icon-untitled"></use>
+                    </svg>
+                  </li>
+                  <li class="pagination-item">1</li>
+                  <li class="pagination-item">2</li>
+                  <li class="pagination-item">3</li>
+                  <li class="pagination-item">4</li>
+                  <li class="pagination-item-none">...</li>
+                  <li class="pagination-item">40</li>
+                  <li class="pagination-item">
+                    <svg class="" width="8" height="12">
+                      <use href="./helpers/svg/symbol-defs.svg#icon-1"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+              </section>
+      </div>
       </div>
     </main>
   </body>
